@@ -1,0 +1,8 @@
+3.3   IO   CLK   NRST   GND
+
+
+It turns out that I needed to include an ini file under the Utilities tab of Options for Target as well.
+
+From the Target tab go to Option Bytes…
+Select Level 0 for Read Out Protection and Level 3 for BOR Level
+And in Flash sectors protection unselect all the sectors.
